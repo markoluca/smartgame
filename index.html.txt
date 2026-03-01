@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>👑 Принцезина школа бројева</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="app">
+
+<h1>👑 ПРИНЦЕЗИНА ШКОЛА БРОЈЕВА 🌹</h1>
+
+<input id="studentName" placeholder="УНЕСИ ИМЕ">
+
+<div id="levelMap" class="level-map"></div>
+
+<div id="gameArea" class="hidden">
+
+<div id="question" class="question"></div>
+
+<input id="answer" readonly>
+
+<div id="timerBarContainer">
+<div id="timerBar"></div>
+</div>
+
+<button id="finishNowBtn">ЗАВРШИ</button>
+
+<div id="keyboardContainer"></div>
+
+<div class="stats">
+ТАЧНО: <span id="correct">0</span> |
+ПРОЦЕНАТ: <span id="percent">0</span>% |
+ОЦЕНА: <span id="grade">-</span>
+</div>
+
+</div>
+
+</div>
+
+<script src="questions.js"></script>
+<script src="game.js"></script>
+
+</body>
+</html>
